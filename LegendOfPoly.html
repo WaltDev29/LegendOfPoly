@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legend Of Poly</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="LegendOfPoly.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>LEGEND OF POLY</h1>
+    </header>
+    <main>
+        <div id="titleScreen">
+            <img id="titleImg" src="images/title.png">
+        </div>
+        <div id="gameContainer">            
+            <div id="playScreen">
+                <div id="monsterStatus">
+                    <div class="status_name">Slime</div>
+                    <div class="status_level">Lv 1</div>
+                    <div class="status_hp">HP 100/100</div>
+                    <div class="status_bar_container">
+                        <div class="status_bar_hp"></div>
+                    </div>
+                </div>
+                <div id="playerStatus">
+                    <div class="status_name">Wizard</div>
+                    <div class="status_level">Lv 1</div>
+                    <div class="status_hp">HP 100/100</div>
+                    <div class="status_mp">MP 100/100</div>
+                    <div class="status_bar_container">
+                        <div class="status_bar_hp"></div>
+                    </div>
+                    <div class="status_bar_container">
+                        <div class="status_bar_mp"></div>
+                    </div>
+                </div>
+                <img id="monster_img" src="images/slime_front.png">
+                <img id="player_img" src="images/wizard_back.png">
+            </div>
+            <div id="controlBox">
+                <div id="behavior_container">
+                    <div id="behavior_pAtk" class="chooseBox">Attack</div>
+                    <div id="behavior_mAtk" class="chooseBox">Skill</div>
+                    <div id="behavior_item" class="chooseBox">Item</div>
+                    <div id="behavior_flee" class="chooseBox">Flee</div>
+                </div>
+                <div id="pAtk_container">
+                </div>
+                <div id="mAtk_container">
+                </div>
+                <div id="message_container">
+                </div>
+            </div>
+        </div>        
+    </main>
+    <!-- 클래스 정의 -->
+     <script src="LegendOfPoly_Class.js"></script>
+    <!-- JavaScript -->
+    <script src="LegendOfPoly.js"></script>
+</body>
+
+</html>
