@@ -22,10 +22,10 @@
 
 ## 🗂️ 파일 구조
 📁 LegendOfPoly   
-├── 250505_4JRPG.html &nbsp;&nbsp; # 게임 메인 화면 (HTML 구조)  
-├── 250505_4JRPG.css &nbsp;&nbsp; # 스타일 시트 (UI 디자인)  
-├── 250505_4JRPG.js &nbsp;&nbsp; # 게임 로직 (이벤트 처리 및 UI 연동)  
-├── 250505_4JRPG_Class.js &nbsp;&nbsp; # 클래스 정의 (Player, Monster, Slime 등)  
+├── LegendOfPoly.html &nbsp;&nbsp; # 게임 메인 화면 (HTML 구조)  
+├── LegendOfPoly.css &nbsp;&nbsp; # 스타일 시트 (UI 디자인)  
+├── LegendOfPoly.js &nbsp;&nbsp; # 게임 로직 (이벤트 처리 및 UI 연동)  
+├── LegendOfPoly_Class.js &nbsp;&nbsp; # 클래스 정의 (Player, Monster, Slime 등)  
 └── 📁 images
 
 <br>
